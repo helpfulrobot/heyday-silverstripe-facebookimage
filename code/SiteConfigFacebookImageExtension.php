@@ -11,5 +11,4 @@ class SiteConfigFacebookImageExtension extends DataExtension
         $fields->addFieldToTab('Root.Facebook', $uf = new UploadField('FacebookImage', 'Default Facebook image for facebook share'));
         $uf->setFolderName('FacebookImages/');
     }
-
-} 
+}
